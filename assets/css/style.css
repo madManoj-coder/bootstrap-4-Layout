@@ -67,3 +67,23 @@
         margin-left: 6px;
     }
 }
+
+
+/* ############# mainslider css starts here ################ */
+
+.mainSlider .carousel-inner,
+.mainSlider .carousel-item > img{
+    height: 400px;
+}
+
+.mainSlider .carousel-caption{
+    top:50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+
+
+
+.mainSlider .carousel-item > img{
+    object-fit: cover;
+}
