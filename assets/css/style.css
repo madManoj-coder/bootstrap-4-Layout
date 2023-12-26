@@ -68,17 +68,24 @@
 
 /* ############# mainParallax css starts here ################ */
 
+.mainParallax{
+    background-image: url(../images/lights.jpg);
+}
 
-.mainParallax {
+.videoInfo{
+    background-image: url(../images/media.jpg);
+}
+
+.mainParallax,.videoInfo {
     /* background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/lights.jpg); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../images/lights.jpg);
     position: relative;
 }
 
-.mainParallax::before{
+.mainParallax::before,
+.videoInfo::before{
     content: "";
     top: 0;
     left:0;
@@ -86,4 +93,10 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .7);
+}
+
+.imgGallary img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
 }
