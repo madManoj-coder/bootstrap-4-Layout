@@ -63,3 +63,27 @@
 .mainSlider .carousel-item>img {
     object-fit: cover;
 }
+
+
+
+/* ############# mainParallax css starts here ################ */
+
+
+.mainParallax {
+    /* background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/lights.jpg); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/lights.jpg);
+    position: relative;
+}
+
+.mainParallax::before{
+    content: "";
+    top: 0;
+    left:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
