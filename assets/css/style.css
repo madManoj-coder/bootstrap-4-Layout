@@ -68,11 +68,11 @@
 /* ############# mainParallax css starts here ################ */
 
 .mainParallax{
-    background-image: url(../images/lights.jpg);
+    background-image: url(../images/image10.jpg);
 }
 
 .videoInfo{
-    background-image: url(../images/media.jpg);
+    background-image: url(../images/image9.jpg);
 }
 
 .mainParallax,.videoInfo {
@@ -110,11 +110,11 @@
     background-color: whitesmoke;
 }
 
-/* @media all and (max-width:500px) {
-    .newsInfo > .mainForm{
-         display: inline-block;
+@media all and (max-width:425px) {
+    .newsInfo .mainForm{
+          display: contents; 
     }
-} */
+}
 
 .theUltimateCoders{
     background-color: var(--color-dark);
