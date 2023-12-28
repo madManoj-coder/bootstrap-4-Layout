@@ -76,8 +76,8 @@
 }
 
 
-
 /* ############# mainslider css starts here ################ */
+
 
 .mainSlider .carousel-inner,
 .mainSlider .carousel-item>img {
@@ -99,15 +99,15 @@
 /* ############# mainParallax css starts here ################ */
 
 .mainParallax{
-    background-image: url(../images/image10.jpg);
-}
-
-.videoInfo{
     background-image: url(../images/image9.jpg);
 }
 
-.mainParallax,.videoInfo {
-    /* background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/lights.jpg); */
+.videoInfo{
+    background-image: url(../images/image1.jpg);
+}
+
+.mainParallax, .videoInfo {
+    /* background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(../images/image4.jpg); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .4);
 }
 
 @media all and (max-width:600px) {
