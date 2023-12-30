@@ -15,6 +15,13 @@
     margin-left: 20px;
 }
 
+.fkNavbar img {
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+    right: 70px;
+}
+
 .navbar.fkNavbar {
     background-color: var(--color-dark);
 }
